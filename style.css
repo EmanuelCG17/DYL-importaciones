@@ -171,7 +171,8 @@ footer {
 .beneficios h2 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #ffffff; 
+    color: #ffffff;
+}
 
 .beneficios-container {
     display: flex;
@@ -268,5 +269,4 @@ footer {
 .icono-carrito:hover {
   transform: scale(1.2);
   filter: invert(29%) sepia(95%) saturate(7481%) hue-rotate(348deg) brightness(90%) contrast(110%);
-  
 }
