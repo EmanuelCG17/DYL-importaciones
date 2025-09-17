@@ -246,8 +246,27 @@ footer {
 }
 
 .mapa iframe {
-  width: 300px;   /* más pequeño */
-  height: 250px;  /* más compacto */
+  width: 300px;   
+  height: 250px;  
   border: none;
   border-radius: 8px;
+}
+
+
+.carrito {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.icono-carrito {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.2s ease;
+}
+
+.icono-carrito:hover {
+  transform: scale(1.2);
+  filter: invert(29%) sepia(95%) saturate(7481%) hue-rotate(348deg) brightness(90%) contrast(110%);
+  
 }
